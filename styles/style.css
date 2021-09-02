@@ -961,6 +961,8 @@ a {
     transition: all 0.3s;
   }
 
+  /* add class "is-open" to <nav class="header-nav"> result <nav class="header-nav is-open"> */
+
   .header-nav.is-open {
     transform: translateX(0);
     box-shadow: 10px 0 10px rgba(0, 0, 0, 0.2);
